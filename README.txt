@@ -1,4 +1,6 @@
 Visit http://localhost:5000/ to use the service.
+
+
 ## Usage
 -Make a POST request to /predict with a JSON object containing loan application data. Ensure that the data includes 11 features.
 -The application will respond with a prediction of loan eligibility or an error message.
@@ -22,4 +24,6 @@ JSON Example
         "commercial_assets_value": 7700000,
         "luxury_assets_value": 27200000,
         "bank_asset_value": 10600000 }
+
+## You can find the relevant notebooks for EDA and model generation in the notebooks folder
 --BusraUlkuKup (busraulku14@gmail.com)
